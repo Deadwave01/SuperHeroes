@@ -1,0 +1,10 @@
+name: SuperHeroes
+version: '${project.version}'
+main: wave.forboosty.SuperHeroes
+api-version: 1.19
+commands:
+  heroclass:
+    description: Hero class
+    aliases:
+      - hc
+    usage: /heroclass <join/leave>
